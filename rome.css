@@ -1,0 +1,67 @@
+.root{
+	-fx-background-image:url("bg.jpeg");
+	-fx-font-family: "";
+}
+#title{
+	-fx-font-size:50;
+	-fx-label-padding:50,50,50;
+}
+#title2{
+	-fx-font-size:50;
+}
+#button{
+	-fx-font-size:18;
+	-fx-text-fill:white;
+	-fx-background-color:#633300;
+	-fx-background-radius:0 0 0 0 ;
+	-fx-border-color:#846b50;
+	-fx-border-width:3;
+}
+#button:hover{
+	-fx-background-color:#ad5900;
+	
+}
+#flag{
+	-fx-font-size:13;
+	-fx-text-fill:white;
+	-fx-background-color:#633300;
+	-fx-background-radius:0 0 0 0 ;
+	-fx-border-color:#846b50;
+	-fx-border-width:0;
+}
+#flag:hover{
+	-fx-background-color:#ad5900;
+}
+.label{
+	-fx-text-fill:white;
+	-fx-font-weight:bold;
+}
+.hbox{
+	-fx-border-color:#846b50;
+}
+#b{
+	-fx-background-color:transparent;
+	-fx-border-color:transparent;
+}
+#cb{
+	-fx-background-color:transparent;
+	-fx-border-radius:0 0 0 0;
+}
+.list-view{
+	-fx-background-color:transparent;
+}
+.list-cell{
+	-fx-text-fill:white;
+	-fx-background-color:transparent;
+}
+.text-area {
+    -fx-font-family: Consolas;
+    -fx-font-size: 15;
+    -fx-text-fill: #ffffff;
+    -fx-background-image:url("bg.jpeg");
+}
+
+.text-area .content {
+	-fx-background-image:url("bg.jpeg");
+}
+
